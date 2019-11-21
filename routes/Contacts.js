@@ -1,5 +1,5 @@
 const router = require('express').Router();
-let Contacts = require('../Models/contacts.model');
+let Contacts = require('../models/contacts.model');
 
 router.get('/', (req, res) => {
     Contacts.find({})
