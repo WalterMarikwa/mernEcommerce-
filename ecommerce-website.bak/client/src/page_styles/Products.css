@@ -1,0 +1,79 @@
+#showcase {
+  height: 600px;
+  background-image: url("https://bit.ly/2MicR17");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #ffffff;
+  margin: 0 3px 0 3px;
+}
+
+.colorx {
+  color: gold;
+  font-size: 30px;
+  text-shadow: 2px 2px 4px black;
+}
+
+@media (max-width: 768px) {
+  .card {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #customers {
+    text-align: center;
+  }
+  #social {
+    text-align: center;
+  }
+  .photoBg {
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.name {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 20px;
+  color: gold;
+  text-shadow: 2px 2px 4px black;
+}
+
+h4 {
+  text-shadow: 2px 2px 4px black;
+  text-align: center;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+}
+
+.card {
+  height: auto;
+  margin: 20px 0;
+}
+
+.card .photoBg {
+  height: 20em;
+  width: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+}
+
+.filterProd {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+
+select {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  display: inline-block;
+  padding: 0.35em 1.2em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+}

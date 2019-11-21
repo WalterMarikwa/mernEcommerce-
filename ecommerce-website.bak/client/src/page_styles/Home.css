@@ -1,0 +1,101 @@
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: 15px 'Noto Sans', sans-serif;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color:x #F0F0F0;
+  }
+  
+
+@media(max-width: 700px) {
+    .card {
+        margin-bottom: 20px;   
+    }
+    #customers {
+        text-align: center;
+    }
+    #social {
+        text-align: center;
+    }
+}
+
+/*HEADER*/
+
+h1 {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px #000;
+}
+
+.navbar {
+    border-bottom: 2px solid gold;
+    position: sticky;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    background-color: gold;
+    color: #fff;
+}
+
+.btn {
+    background: #fff;
+    color: #000;
+    border:2px solid #000;
+}
+
+.btn:hover {
+    background-color: gold;
+}
+
+.pic-slide {
+    width: 100%;
+    height: 768px;
+    padding: 0;
+}
+
+#about {
+    background-color: lightgray;
+    text-align: center;
+    position: sticky;
+    padding: 20px 0 20px 0;
+    margin:20px 10px 20px 10px;
+
+}
+
+hr {
+    width: 100%;
+}
+
+#cardbox {
+    width: 100%;
+}
+
+
+.card {
+    resize: 60px;
+    padding: 10px;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.cardx {
+    resize: 60px;
+    padding: 10px;
+}
+

@@ -1,0 +1,191 @@
+body {
+    font-family: 15px 'Noto Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color:x #F0F0F0;
+}
+
+@media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+
+/*HEADER*/
+
+h1 {
+    position: absolute;
+    top: 50%;
+    color: white;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-shadow: 2px 2px 4px #000;
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px #000;
+}
+
+.navbar {
+    border-bottom: 2px solid gold;
+    position: sticky;
+}
+
+.nav-link {
+    color: #000;
+}
+
+.nav-link:hover {
+    background-color: gold;
+    color: #fff;
+}
+
+.btn {
+    background: #fff;
+    color: #000;
+    border:2px solid #000;
+}
+
+.btn:hover {
+    background-color: gold;
+}
+
+/*FOOTER*/
+
+#social {
+    padding: 4.25rem 0;
+    border-top: 2px solid #000;
+}
+
+#social .fab {
+    font-size: 1.5em;
+    color: gold;
+    border: 2px solid #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 30%;
+    text-align: center;
+    padding: 30% 0;
+    margin-top: 10px;
+    transition: all 0.4s ease-in-out;
+}
+
+#social .fab:hover {
+    color:#fff;
+    background: gold;
+}
+
+/*PRODUCTS PAGE*/
+
+
+  .colorx {
+      color: gold;
+      font-size: 30px;
+      text-shadow: 2px 2px 4px black;
+  }
+
+/*CONTACT FOOTER*/
+
+  #footer {
+    padding: 2rem 0;
+    background-color:#888;
+    color:white;
+}
+
+#footer a {
+    color:white;
+    width: 20px;
+    height: 25px;
+}
+
+#footer .fa {
+    padding: 0 5px;
+}
+
+#footer .fab:hover:hover {
+    background-color: gold;
+    border: 2px solid #000;
+    border-radius: 60px;
+}
+
+ /*CONTACT FORM*/
+
+ textArea {
+     padding: 16px;
+     margin-top: 20px;
+ }
+
+ * {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background: #fff;
+    padding: 5px;
+    color: #000;
+    border:2px solid #000;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: gold;
+    color: #F0F0F0;
+  }
+  
+  /* Style the container/contact section */
+  .containerForm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .commentSection {
+    border:2px solid white;
+    box-shadow: 5px 10px 8px black;
+    border-radius: 25px;
+    margin: 16px;
+    padding: 20px;
+    float: left
+  }
+
+  .commentSection:hover {
+    background-color: gold;
+  }
+
+
+  .commentSection {
+    animation:bouncy 5s infinite linear;
+    position: relative;
+  }
+
+
+  .CommentBox {
+    padding: 20px;
+  }
