@@ -14,7 +14,7 @@ class Products extends React.Component {
   };
   componentDidMount() {
     axios
-    .get("/products")
+    .get("/api/products")
     .then((response) => {
       console.log(response)
         this.setState({

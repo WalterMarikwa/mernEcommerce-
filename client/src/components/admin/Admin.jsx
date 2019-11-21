@@ -7,7 +7,7 @@ export default class Admin extends React.Component {
   }
 
   componentDidMount() {
-    axios.get('/products')
+    axios.get('/api/products')
       .then(res => {
         const products = res.data;
         this.setState({ products });

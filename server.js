@@ -5,7 +5,7 @@ const path = require('path')
 
 const app = express();
 const port = process.env.PORT || 5000;
-let uri = "process.env.ATLAS_URI"
+let uri = process.env.ATLAS_URI
 
 // register middleware
 app.use(express.urlencoded({ extended: true }));
@@ -16,7 +16,7 @@ const Products = require('./routes/Products');
 const Contacts = require('./routes/Contacts');
 const Users = require('./routes/usersRouter');
 
-app.use("/products", Products);
+app.use("/api/products", Products);
 app.use("/contacts", Contacts);
 app.use("/users", Users);
 
