@@ -2,7 +2,6 @@
   "name": "ecommerce-website",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "mocha",
     "start": "if-env NODE_ENV=production && npm run start:prod || npm run start:dev",
@@ -13,16 +12,9 @@
     "install": "cd client && npm install",
     "build": "cd client && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/WalterMarikwa/ecommerce-website.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/WalterMarikwa/ecommerce-website/issues"
-  },
   "homepage": "https://github.com/WalterMarikwa/ecommerce-website#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -31,6 +23,7 @@
     "concurrently": "^4.1.2",
     "dotenv": "^8.1.0",
     "express": "^4.17.1",
+    "if-env":"1.0.4",
     "file-system": "^2.2.2",
     "helmet": "^3.21.1",
     "jsonwebtoken": "^8.5.1",
