@@ -1,4 +1,4 @@
-const User = require('../User.js/index.js')
+const User = require('../models/User.js/index.js.js')
 const signToken = require('../auth').signToken
 
 module.exports = {
